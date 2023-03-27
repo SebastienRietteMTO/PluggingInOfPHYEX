@@ -46,7 +46,7 @@ Inputs / Outputs
 ----------------
 Depending on the calling order, the list of inputs and outputs variable are not the same (see table above).
 
-In addition to these varibales, the folowing variabes are needed (inputs):
+In addition to these variables, the following ones are needed (inputs):
 
 |Variable name               |Variable content                                                       |Unit                                      |
 |----------------------------|-----------------------------------------------------------------------|------------------------------------------|
@@ -54,13 +54,11 @@ In addition to these varibales, the folowing variabes are needed (inputs):
 |RV, RC, RI, RR, RS, RG, (RH)|Vapor and hydrometeors mixing-ratio                                    |kg/kg (mass of water over mass of dry air)|
 |P                           |Pressure                                                               |Pa                                        |
 |U, V                        |Wind component                                                         |m/s                                       |
-|TKE                         |Turbulent kinetic energy                                               |                                          |
+|TKE                         |Turbulent kinetic energy                                               |m²/s²                                     |
 
 **TOTO** include altitude and thickness but we have to check if they are needed on mass or flux points. Put here the minimum number of variables and the other ones in the folowing table.
 
 **TODO** check if wind components must be along the model grid or are relative to N/S and E/W. Check their values with respect to the map factor.
-
-**TODO** unit of the TKE inside the model
 
 Optionaly, some passive variables can be added to be transported by the turbulence and the shallow convection scheme.
 
